@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #666;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*----------HEADER LEFT-------------*/
+div.headerLeft{
+    display:flex; 
+    margin: 5px;
+    padding: auto;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div.logo{
+    width: 100%;
+    align-items: center; 
+    justify-content: center;
+}
+
+header div img{
+    width: 100%;   
+    
+}
+
+.burger-menu{
+    width: 50%;
+    margin-top: 10px;
+}
+
+.burger{
+    background-color: #000;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+
+
+
+
+/* HEADER CENTER */
+
+div.headerCenter{
+    width: 60%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header div.busqueda{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding: auto; 
+}
+
+div.busqueda input{
+    border-radius: 3px;
+    border: none; 
+    width: 90%;
+    margin: 10px;
+}
+
+div.busqueda i{
+    width: 10%;
+}
+
+
+
+
+/* HEADER BOTTOM */
+
+div.headerRight{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;  
+    align-items: center;  
+}
+
+div.micuenta{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.micuenta label{
+    font-size: 15px;
+}
+
+
+div .carritoCompra{
+    width: 50%;
+}
+
+div.carritoCompra button{
+    background-color: #000;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px; 
+    border: none;
+}
+
