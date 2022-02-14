@@ -7,63 +7,176 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        
 
 
-    <title>Document</title>
+    <title>Argentium</title>
 </head>
 <body>
     <header>
-    <div class="headerLeft">
-
-        <!-- Imagen logo -->
-        <div class="logo">
-            <img src="img/Logo_NIKE.svg.png" alt="logo Argentium ">
-        </div>
-
-        <div class="burger-menu">
+          <!-- Imagen logo -->
+          <div class="burger-menu">
             <button class="burger"> <i class="fas fa-bars"></i></button>
-        </div>
-       
-        <!-- icono user -->
+        </div>       
         
-    </div>
-
-
-    <div class="headerCenter">
-        <div class="busqueda">
-            <!-- barra de busqueda -->
-            <input type="text" name="busqueda" id="busqueda" placeholder="Busque sus productos">
-            
-            <!-- icono lupa -->
-            <i class="fa fa-search"></i>            
+        <div class="logo">
+            <a href="/"><img src="img/Logo_NIKE.svg.png" alt="logo Argentium "></a>
+        </div>      
+        
+                      
+        <div class="busqueda">  
+            <input id="barraB" type="text" name="busqueda" placeholder="Busque sus productos">
+            <input type="submit" class="toggle-btn" onclick="mostrar()" value="&#128270;"/>
+            </div> 
         </div>
-    </div>
-
-
-    <div class="headerRight">
-        <!-- Burger Button para Menu -->
-               
+        
+        
         <div class="carritoCompra">
-            <button class="carrito"> <i class="fas fa-user" id="user"></i></button>
-        </div>
-        
-        <!-- Carrito de compras -->
-        <div class="carritoCompra">
-        <button class="carrito"><i class="fas fa-shopping-cart"></i></button>
-        </div>
-        
-    </div>
+        <button class="carritoyUser"><i class="fas fa-shopping-cart"></i></button>
+        </div> 
 
+        <div class="user">
+            <button class="carritoyUser"> <i class="fas fa-user" id="user"></i></button>
+        </div>
+             
+        
 
     </header>
 
 
-    <main>
+    <main>        
+        <section class="mainCategoria">   
+        <h2>PC ESCRITORIO </h2>
+        <div class="contenedorDeArticulos">
+        <article class="artProducto">            
+            <img src="img/DESKTOP/pc1.jpg" alt="PC ESCRITORIO">
+            <div class="main-article">
+            <h3 class="description">DESKTOP 1</h3>
+            <p class="price">$$$$$$</p>
+            <p class="discount">$$% OFF</p>
+        </div>                              
+        </article>
+
+        <article class="artProducto">            
+            <img src="img/DESKTOP/pc2.jpg" alt="PC ESCRITORIO">
+            <div class="main-article">
+            <h3 class="description">DESKTOP 2</h3>
+            <p class="price">$$$$$$</p>
+            <p class="discount">$$% OFF</p>
+        </div>                        
+        </article>
+
+        <article class="artProducto">            
+            <img src="img/DESKTOP/pc3.jpg" alt="PC ESCRITORIO">
+            <div class="main-article">
+            <h3 class="description">DESKTOP 2</h3>
+            <p class="price">$$$$$$</p>
+            <p class="discount">$$% OFF</p>
+        </div>                        
+        </article>
+
+
+        <article class="artProducto">            
+            <img src="img/DESKTOP/pc5.jpg" alt="PC ESCRITORIO">
+            <div class="main-article">
+            <h3 class="description">DESKTOP 4</h3>
+            <p class="price">$$$$$$</p>
+            <p class="discount">$$% OFF</p>
+        </div>                        
+        </article>
+               
+        </div>  <!-- div apartado -->
+    </section>
+
+    <section class="mainCategoria">   
+        <h2>NOTEBOOKS</h2>
+        <div class="contenedorDeArticulos">
+        <article class="artProducto">            
+            <img src="img/notebooks/nb1.jpg" alt="pc1">
+            <div class="main-article">
+            <h3 class="description">PC ESCRITORIO 1</h3>
+            <p class="price">$$$$$$</p>
+            <p class="discount">$$% OFF</p>
+        </div>                              
+        </article>
+
+        <article class="artProducto">            
+            <img src="img/notebooks/nb2.jpg" alt="pc 2">
+            <div class="main-article">
+            <h3 class="description">PC ESCRITORIO 2</h3>
+            <p class="price">$$$$$$</p>
+            <p class="discount">$$% OFF</p>
+        </div>                        
+        </article>
+
+        <article class="artProducto">            
+            <img src="img/notebooks/nb3.jpg" alt="pc 2">
+            <div class="main-article">
+            <h3 class="description">PC ESCRITORIO 2</h3>
+            <p class="price">$$$$$$</p>
+            <p class="discount">$$% OFF</p>
+        </div>                        
+        </article>
+
+        <article class="artProducto">            
+            <img src="img/notebooks/nb4.jpg" alt="pc 2">
+            <div class="main-article">
+            <h3 class="description">PC ESCRITORIO 2</h3>
+            <p class="price">$$$$$$</p>
+            <p class="discount">$$% OFF</p>
+        </div>                        
+        </article>
+
+        <section class="mainCategoria">   
+            <h2>HADWARE CONSUMO</h2>
+            <div class="contenedorDeArticulos">
+            <article class="artProducto">            
+                <img src="img/hadware/hw1.jpg" alt="pc1">
+                <div class="main-article">
+                <h3 class="description">PROCESADOR</h3>
+                <p class="price">$$$$$$</p>
+                <p class="discount">$$% OFF</p>
+            </div>                              
+            </article>
+    
+            <article class="artProducto">            
+                <img src="img/hadware/hw2.jpg" alt="pc 2">
+                <div class="main-article">
+                <h3 class="description">MEMORIA RAM</h3>
+                <p class="price">$$$$$$</p>
+                <p class="discount">$$% OFF</p>
+            </div>                        
+            </article>
+    
+            <article class="artProducto">            
+                <img src="img/hadware/hw3.jpg" alt="pc 2">
+                <div class="main-article">
+                <h3 class="description">MOUSE</h3>
+                <p class="price">$$$$$$</p>
+                <p class="discount">$$% OFF</p>
+            </div>                        
+            </article>
+
+            <article class="artProducto">            
+                <img src="img/hadware/hw4.jpg" alt="pc 2">
+                <div class="main-article">
+                <h3 class="description">SSD</h3>
+                <p class="price">$$$$$$</p>
+                <p class="discount">$$% OFF</p>
+            </div>                        
+            </article>
+    </div>
+    </section>
+
+
+
 
     </main>
-
-
+        
     <footer>
+
+
+
 
     </footer>
     
